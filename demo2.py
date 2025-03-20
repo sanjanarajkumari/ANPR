@@ -9,7 +9,7 @@ import imutils
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Read the image
-img = cv2.imread("Test2.jpg")
+img = cv2.imread("Test3.jpg")
 
 # Display the original image
 plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
